@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="img/ico.png" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <a href="#" class="logo">Ki3mi</a>
+        <nav>
+            <a href="#home" style="--clr:#688894;" class="active">Yo</a>
+            <a href="#about" style="--clr:#E9D8A6;" >Proyectos</a>
+            <a href="#services" style="--clr:#94D2BD;">Contacto</a>            
+        </nav>
+    </header>
+    <section class="container me" id="home" style="--clr:#688894">
+        <img class="photo" src="img/ico.png" alt="">
+        <div class="text">
+            <h1>CCENTE MEJIA, JOSE CARLOS</h1>
+            <p><span class="txt" style="--clr:#94D2BD">¡Hola!</span> Soy desarrollador web con ganas de crear cosas geniales. Trabajo con <span class="txt" style="--clr:#EE9B00">HTML,</span> <span class="txt" style="--clr:#c8b6ff">CSS,</span> <span class="txt" style="--clr:#E9D8A6">JavaScript,</span> <span class="txt" style="--clr:#b5e2fa">Python</span> y <span class="txt" style="--clr:#f28482">SQL.</span> ¡Siempre listo para aprender y construir!</p>
+        </div>
+    </section>
+    <section class="container about" id="about" style="--clr:#E9D8A6">
+        <div class="projects">
+            <div class="project">
+                <h1>Panadería</h1>
+                <a href="https://bakery-beryl.vercel.app/"><img src="img/bakery.PNG" alt=""></a>
+            </div>
+            <div class="project">
+                <h1>Discover</h1>
+                <a href="https://conti-project.vercel.app/"><img src="img/Discover.PNG" alt=""></a>
+            </div>
+            <div class="project">
+                <h1>Calculadora</h1>
+                <a href="https://calculadora-tan-psi.vercel.app/"><img src="img/calculadora.PNG" alt=""></a>
+            </div>     
+        </div>
+    </section>
+    <section class="container contact" id="services" style="--clr:#94D2BD">
+        <div class="formulario">
+            <h1>Contáctame</h1>
+            <form action="" class="contact-form">
+                <label for="name">Nombre</label>
+                <input class="txt-input" type="text" id="name" name="name" required placeholder="Tu nombre">
+                <div class="line"></div>
+
+                <label for="email">Correo electrónico</label>
+                <input class="txt-input" type="email" id="email" name="email" required placeholder="tucorreo@example.com">
+                <div class="line"></div>
+
+                <label for="message">Mensaje</label>
+                <textarea class="txt-input" id="message" name="message" rows="5" required placeholder="Escribe tu mensaje aquí..."></textarea>
+                <div class="line"></div>
+
+                <button type="submit">Enviar</button>
+            </form>
+            <a href="https://github.com/ki3mi"><img src="img/github.png" alt=""></a>
+        </div>
+        <div class="sitios">
+
+        </div>
+    </section>
+    
+    <script src="main.js"></script>
+</body>
+</html>
